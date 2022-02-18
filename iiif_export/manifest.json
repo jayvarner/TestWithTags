@@ -1,0 +1,657 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://readux.io/iiif/v2/spfrj/manifest",
+    "@type": "sc:Manifest",
+    "label": "Apollo 15 FDF: Assorted Files",
+    "metadata": [
+        {
+            "label": "Author",
+            "value": "NASA"
+        },
+        {
+            "label": "Publisher",
+            "value": "NASA"
+        },
+        {
+            "label": "Place of Publication",
+            "value": "Place of publication"
+        },
+        {
+            "label": "Publication Date",
+            "value": "1971"
+        },
+        {
+            "label": "Notes",
+            "value": null
+        },
+        {
+            "label": "Record Created",
+            "value": "2020-06-09T20:16:04.091Z"
+        },
+        {
+            "label": "Edition Type",
+            "value": "Readux IIIF Exported Edition"
+        },
+        {
+            "label": "About Readux",
+            "value": "https://readux.ecdsdev.org/about/"
+        },
+        {
+            "label": "Annotators",
+            "value": "Jay Varner"
+        },
+        {
+            "label": "Export Date",
+            "value": "2022-02-18T17:17:38.354"
+        }
+    ],
+    "description": "Alarm codes, Loss of manual and auto APS start, Verb list, Noun list, and V50 checklist from the Apollo 15 Flight Data File (FDF).",
+    "related": [
+        "https://readux.io/volume/spfrj/page/all"
+    ],
+    "within": [
+        "https://readux.io/collection/apollo-15"
+    ],
+    "thumbnail": {
+        "@id": "https://images.readux.io/iiif/2/None/full/600,/0/default.jpg",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://images.readux.io/iiif/2/None",
+            "profile": "http://iiif.io/api/image/2/level1.json"
+        }
+    },
+    "attribution": "Emory University Libraries",
+    "logo": "https://readux.io/media/logos/lits-logo-web.png",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "viewingDirection": "left-to-right",
+    "viewingHint": "paged",
+    "sequences": [
+        {
+            "@id": "https://readux.io/iiif/v2/spfrj/sequence/normal",
+            "@type": "sc:Sequence",
+            "label": "Current Page Order",
+            "startCanvas": "https://readux.io/iiif/spfrj/canvas/spfrj_001a.jpg",
+            "canvases": [
+                {
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "https://readux.io/iiif/spfrj/canvas/spfrj_001a.jpg",
+                    "@type": "sc:Canvas",
+                    "label": "1",
+                    "height": 4250,
+                    "width": 3080,
+                    "images": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "https://readux.io/iiif/spfrj/annotation/spfrj_001a.jpg",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://images.readux.io/iiif/2/spfrj_001a.jpg/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4250,
+                                "width": 3080,
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://images.readux.io/iiif/2/spfrj_001a.jpg",
+                                    "profile": "https://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://readux.io/iiif/spfrj/canvas/spfrj_001a.jpg"
+                        }
+                    ],
+                    "thumbnail": {
+                        "@id": "https://images.readux.io/iiif/2/spfrj_001a.jpg/full/200,/0/default.jpg",
+                        "height": 250,
+                        "width": 200
+                    },
+                    "otherContent": [
+                        {
+                            "@id": "https://readux.io/iiif/v2/spfrj/list/spfrj_001a.jpg",
+                            "@type": "sc:AnnotationList",
+                            "label": "OCR Text"
+                        }
+                    ]
+                },
+                {
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "https://readux.io/iiif/spfrj/canvas/spfrj_001b.jpg",
+                    "@type": "sc:Canvas",
+                    "label": "2",
+                    "height": 4109,
+                    "width": 7750,
+                    "images": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "https://readux.io/iiif/spfrj/annotation/spfrj_001b.jpg",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://images.readux.io/iiif/2/spfrj_001b.jpg/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4109,
+                                "width": 7750,
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://images.readux.io/iiif/2/spfrj_001b.jpg",
+                                    "profile": "https://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://readux.io/iiif/spfrj/canvas/spfrj_001b.jpg"
+                        }
+                    ],
+                    "thumbnail": {
+                        "@id": "https://images.readux.io/iiif/2/spfrj_001b.jpg/full/200,/0/default.jpg",
+                        "height": 250,
+                        "width": 200
+                    },
+                    "otherContent": [
+                        {
+                            "@id": "https://readux.io/iiif/v2/spfrj/list/spfrj_001b.jpg",
+                            "@type": "sc:AnnotationList",
+                            "label": "OCR Text"
+                        },
+                        {
+                            "label": "Annotations by jay",
+                            "@type": "sc:AnnotationList",
+                            "@id": "https://readux.io/annotations/jay/spfrj/list/spfrj_001b.jpg"
+                        }
+                    ]
+                },
+                {
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "https://readux.io/iiif/spfrj/canvas/spfrj_002a.jpg",
+                    "@type": "sc:Canvas",
+                    "label": "3",
+                    "height": 4250,
+                    "width": 2593,
+                    "images": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "https://readux.io/iiif/spfrj/annotation/spfrj_002a.jpg",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://images.readux.io/iiif/2/spfrj_002a.jpg/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4250,
+                                "width": 2593,
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://images.readux.io/iiif/2/spfrj_002a.jpg",
+                                    "profile": "https://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://readux.io/iiif/spfrj/canvas/spfrj_002a.jpg"
+                        }
+                    ],
+                    "thumbnail": {
+                        "@id": "https://images.readux.io/iiif/2/spfrj_002a.jpg/full/200,/0/default.jpg",
+                        "height": 250,
+                        "width": 200
+                    },
+                    "otherContent": [
+                        {
+                            "@id": "https://readux.io/iiif/v2/spfrj/list/spfrj_002a.jpg",
+                            "@type": "sc:AnnotationList",
+                            "label": "OCR Text"
+                        }
+                    ]
+                },
+                {
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "https://readux.io/iiif/spfrj/canvas/spfrj_002b.jpg",
+                    "@type": "sc:Canvas",
+                    "label": "4",
+                    "height": 4029,
+                    "width": 7500,
+                    "images": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "https://readux.io/iiif/spfrj/annotation/spfrj_002b.jpg",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://images.readux.io/iiif/2/spfrj_002b.jpg/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4029,
+                                "width": 7500,
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://images.readux.io/iiif/2/spfrj_002b.jpg",
+                                    "profile": "https://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://readux.io/iiif/spfrj/canvas/spfrj_002b.jpg"
+                        }
+                    ],
+                    "thumbnail": {
+                        "@id": "https://images.readux.io/iiif/2/spfrj_002b.jpg/full/200,/0/default.jpg",
+                        "height": 250,
+                        "width": 200
+                    },
+                    "otherContent": [
+                        {
+                            "@id": "https://readux.io/iiif/v2/spfrj/list/spfrj_002b.jpg",
+                            "@type": "sc:AnnotationList",
+                            "label": "OCR Text"
+                        }
+                    ]
+                },
+                {
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "https://readux.io/iiif/spfrj/canvas/spfrj_003.jpg",
+                    "@type": "sc:Canvas",
+                    "label": "5",
+                    "height": 4250,
+                    "width": 2868,
+                    "images": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "https://readux.io/iiif/spfrj/annotation/spfrj_003.jpg",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://images.readux.io/iiif/2/spfrj_003.jpg/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4250,
+                                "width": 2868,
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://images.readux.io/iiif/2/spfrj_003.jpg",
+                                    "profile": "https://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://readux.io/iiif/spfrj/canvas/spfrj_003.jpg"
+                        }
+                    ],
+                    "thumbnail": {
+                        "@id": "https://images.readux.io/iiif/2/spfrj_003.jpg/full/200,/0/default.jpg",
+                        "height": 250,
+                        "width": 200
+                    },
+                    "otherContent": [
+                        {
+                            "@id": "https://readux.io/iiif/v2/spfrj/list/spfrj_003.jpg",
+                            "@type": "sc:AnnotationList",
+                            "label": "OCR Text"
+                        }
+                    ]
+                },
+                {
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "https://readux.io/iiif/spfrj/canvas/spfrj_004.jpg",
+                    "@type": "sc:Canvas",
+                    "label": "6",
+                    "height": 4250,
+                    "width": 2868,
+                    "images": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "https://readux.io/iiif/spfrj/annotation/spfrj_004.jpg",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://images.readux.io/iiif/2/spfrj_004.jpg/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4250,
+                                "width": 2868,
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://images.readux.io/iiif/2/spfrj_004.jpg",
+                                    "profile": "https://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://readux.io/iiif/spfrj/canvas/spfrj_004.jpg"
+                        }
+                    ],
+                    "thumbnail": {
+                        "@id": "https://images.readux.io/iiif/2/spfrj_004.jpg/full/200,/0/default.jpg",
+                        "height": 250,
+                        "width": 200
+                    },
+                    "otherContent": [
+                        {
+                            "@id": "https://readux.io/iiif/v2/spfrj/list/spfrj_004.jpg",
+                            "@type": "sc:AnnotationList",
+                            "label": "OCR Text"
+                        }
+                    ]
+                },
+                {
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "https://readux.io/iiif/spfrj/canvas/spfrj_005.jpg",
+                    "@type": "sc:Canvas",
+                    "label": "7",
+                    "height": 4250,
+                    "width": 2868,
+                    "images": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "https://readux.io/iiif/spfrj/annotation/spfrj_005.jpg",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://images.readux.io/iiif/2/spfrj_005.jpg/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4250,
+                                "width": 2868,
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://images.readux.io/iiif/2/spfrj_005.jpg",
+                                    "profile": "https://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://readux.io/iiif/spfrj/canvas/spfrj_005.jpg"
+                        }
+                    ],
+                    "thumbnail": {
+                        "@id": "https://images.readux.io/iiif/2/spfrj_005.jpg/full/200,/0/default.jpg",
+                        "height": 250,
+                        "width": 200
+                    },
+                    "otherContent": [
+                        {
+                            "@id": "https://readux.io/iiif/v2/spfrj/list/spfrj_005.jpg",
+                            "@type": "sc:AnnotationList",
+                            "label": "OCR Text"
+                        }
+                    ]
+                },
+                {
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "https://readux.io/iiif/spfrj/canvas/spfrj_006.jpg",
+                    "@type": "sc:Canvas",
+                    "label": "8",
+                    "height": 4250,
+                    "width": 2868,
+                    "images": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "https://readux.io/iiif/spfrj/annotation/spfrj_006.jpg",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://images.readux.io/iiif/2/spfrj_006.jpg/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4250,
+                                "width": 2868,
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://images.readux.io/iiif/2/spfrj_006.jpg",
+                                    "profile": "https://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://readux.io/iiif/spfrj/canvas/spfrj_006.jpg"
+                        }
+                    ],
+                    "thumbnail": {
+                        "@id": "https://images.readux.io/iiif/2/spfrj_006.jpg/full/200,/0/default.jpg",
+                        "height": 250,
+                        "width": 200
+                    },
+                    "otherContent": [
+                        {
+                            "@id": "https://readux.io/iiif/v2/spfrj/list/spfrj_006.jpg",
+                            "@type": "sc:AnnotationList",
+                            "label": "OCR Text"
+                        }
+                    ]
+                },
+                {
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "https://readux.io/iiif/spfrj/canvas/spfrj_007.jpg",
+                    "@type": "sc:Canvas",
+                    "label": "9",
+                    "height": 4250,
+                    "width": 2868,
+                    "images": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "https://readux.io/iiif/spfrj/annotation/spfrj_007.jpg",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://images.readux.io/iiif/2/spfrj_007.jpg/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4250,
+                                "width": 2868,
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://images.readux.io/iiif/2/spfrj_007.jpg",
+                                    "profile": "https://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://readux.io/iiif/spfrj/canvas/spfrj_007.jpg"
+                        }
+                    ],
+                    "thumbnail": {
+                        "@id": "https://images.readux.io/iiif/2/spfrj_007.jpg/full/200,/0/default.jpg",
+                        "height": 250,
+                        "width": 200
+                    },
+                    "otherContent": [
+                        {
+                            "@id": "https://readux.io/iiif/v2/spfrj/list/spfrj_007.jpg",
+                            "@type": "sc:AnnotationList",
+                            "label": "OCR Text"
+                        }
+                    ]
+                },
+                {
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "https://readux.io/iiif/spfrj/canvas/spfrj_008.jpg",
+                    "@type": "sc:Canvas",
+                    "label": "10",
+                    "height": 4250,
+                    "width": 2868,
+                    "images": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "https://readux.io/iiif/spfrj/annotation/spfrj_008.jpg",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://images.readux.io/iiif/2/spfrj_008.jpg/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4250,
+                                "width": 2868,
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://images.readux.io/iiif/2/spfrj_008.jpg",
+                                    "profile": "https://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://readux.io/iiif/spfrj/canvas/spfrj_008.jpg"
+                        }
+                    ],
+                    "thumbnail": {
+                        "@id": "https://images.readux.io/iiif/2/spfrj_008.jpg/full/200,/0/default.jpg",
+                        "height": 250,
+                        "width": 200
+                    },
+                    "otherContent": [
+                        {
+                            "@id": "https://readux.io/iiif/v2/spfrj/list/spfrj_008.jpg",
+                            "@type": "sc:AnnotationList",
+                            "label": "OCR Text"
+                        }
+                    ]
+                },
+                {
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "https://readux.io/iiif/spfrj/canvas/spfrj_009.jpg",
+                    "@type": "sc:Canvas",
+                    "label": "11",
+                    "height": 4250,
+                    "width": 2868,
+                    "images": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "https://readux.io/iiif/spfrj/annotation/spfrj_009.jpg",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://images.readux.io/iiif/2/spfrj_009.jpg/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4250,
+                                "width": 2868,
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://images.readux.io/iiif/2/spfrj_009.jpg",
+                                    "profile": "https://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://readux.io/iiif/spfrj/canvas/spfrj_009.jpg"
+                        }
+                    ],
+                    "thumbnail": {
+                        "@id": "https://images.readux.io/iiif/2/spfrj_009.jpg/full/200,/0/default.jpg",
+                        "height": 250,
+                        "width": 200
+                    },
+                    "otherContent": [
+                        {
+                            "@id": "https://readux.io/iiif/v2/spfrj/list/spfrj_009.jpg",
+                            "@type": "sc:AnnotationList",
+                            "label": "OCR Text"
+                        }
+                    ]
+                },
+                {
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "https://readux.io/iiif/spfrj/canvas/spfrj_010.jpg",
+                    "@type": "sc:Canvas",
+                    "label": "12",
+                    "height": 4250,
+                    "width": 2868,
+                    "images": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "https://readux.io/iiif/spfrj/annotation/spfrj_010.jpg",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://images.readux.io/iiif/2/spfrj_010.jpg/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4250,
+                                "width": 2868,
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://images.readux.io/iiif/2/spfrj_010.jpg",
+                                    "profile": "https://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://readux.io/iiif/spfrj/canvas/spfrj_010.jpg"
+                        }
+                    ],
+                    "thumbnail": {
+                        "@id": "https://images.readux.io/iiif/2/spfrj_010.jpg/full/200,/0/default.jpg",
+                        "height": 250,
+                        "width": 200
+                    },
+                    "otherContent": [
+                        {
+                            "@id": "https://readux.io/iiif/v2/spfrj/list/spfrj_010.jpg",
+                            "@type": "sc:AnnotationList",
+                            "label": "OCR Text"
+                        }
+                    ]
+                },
+                {
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "https://readux.io/iiif/spfrj/canvas/spfrj_011.jpg",
+                    "@type": "sc:Canvas",
+                    "label": "13",
+                    "height": 4250,
+                    "width": 2868,
+                    "images": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "https://readux.io/iiif/spfrj/annotation/spfrj_011.jpg",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://images.readux.io/iiif/2/spfrj_011.jpg/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4250,
+                                "width": 2868,
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://images.readux.io/iiif/2/spfrj_011.jpg",
+                                    "profile": "https://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://readux.io/iiif/spfrj/canvas/spfrj_011.jpg"
+                        }
+                    ],
+                    "thumbnail": {
+                        "@id": "https://images.readux.io/iiif/2/spfrj_011.jpg/full/200,/0/default.jpg",
+                        "height": 250,
+                        "width": 200
+                    },
+                    "otherContent": [
+                        {
+                            "@id": "https://readux.io/iiif/v2/spfrj/list/spfrj_011.jpg",
+                            "@type": "sc:AnnotationList",
+                            "label": "OCR Text"
+                        }
+                    ]
+                },
+                {
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "@id": "https://readux.io/iiif/spfrj/canvas/spfrj_012.jpg",
+                    "@type": "sc:Canvas",
+                    "label": "14",
+                    "height": 4250,
+                    "width": 2868,
+                    "images": [
+                        {
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "https://readux.io/iiif/spfrj/annotation/spfrj_012.jpg",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://images.readux.io/iiif/2/spfrj_012.jpg/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4250,
+                                "width": 2868,
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://images.readux.io/iiif/2/spfrj_012.jpg",
+                                    "profile": "https://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://readux.io/iiif/spfrj/canvas/spfrj_012.jpg"
+                        }
+                    ],
+                    "thumbnail": {
+                        "@id": "https://images.readux.io/iiif/2/spfrj_012.jpg/full/200,/0/default.jpg",
+                        "height": 250,
+                        "width": 200
+                    },
+                    "otherContent": [
+                        {
+                            "@id": "https://readux.io/iiif/v2/spfrj/list/spfrj_012.jpg",
+                            "@type": "sc:AnnotationList",
+                            "label": "OCR Text"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
